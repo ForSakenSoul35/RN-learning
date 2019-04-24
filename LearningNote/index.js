@@ -3,7 +3,12 @@
  */
 
 import {AppRegistry} from 'react-native';
-import App from './App';
+// import HelloWorldApp from './demo/App';
+// 从APP.js文件中导入 HelloWorldApp
+// import HelloWorldApp from './demo/Props';
+// import BlinkApp from './demo/Blink'
+import FlatListBasics from './demo/List'
 import {name as appName} from './app.json';
+import SectionListBasics from './demo/Section'
 
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => SectionListBasics);
